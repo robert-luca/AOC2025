@@ -11,6 +11,9 @@
     <None Include="Day1\Input.txt" Condition="Exists('Day1\Input.txt')">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+	  <None Include="Day2\Input.txt" Condition="Exists('Day2\Input.txt')">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
   </ItemGroup>
 
 </Project>

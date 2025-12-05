@@ -3,6 +3,7 @@ using AOC2025.Day1;
 using AOC2025.Day2;
 using AOC2025.Day3;
 using AOC2025.Day4;
+using AOC2025.Day5;
 
 Console.WriteLine("This is Advent of Code 2025!");
 
@@ -43,5 +44,15 @@ Console.WriteLine("-------------------------------------------------------------
 Day4 day4 = new();
 Console.WriteLine("Part1: " + day4.P1());
 Console.WriteLine("Part2: " + day4.P2());
+Console.WriteLine("-------------------------------------------------------------------------------");
+Console.WriteLine("-------------------------------------------------------------------------------");
+
+
+Console.WriteLine("-------------------------------------------------------------------------------");
+Console.WriteLine("Day 5");
+Console.WriteLine("-------------------------------------------------------------------------------");
+Day5 day5 = new();
+Console.WriteLine("Part1: " + day5.P1());
+Console.WriteLine("Part2: " + day5.P2());
 Console.WriteLine("-------------------------------------------------------------------------------");
 Console.WriteLine("-------------------------------------------------------------------------------");
